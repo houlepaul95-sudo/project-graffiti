@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Project Graffiti Firebase Schema Blueprint",
+  "entities": {
+    "Creation": {
+      "collection": "users/{userId}/creations",
+      "description": "Graffiti artwork created and saved by the user in their Blackbook",
+      "fields": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "text": { "type": "string" },
+        "fontStyle": { "type": "string" },
+        "fillHue": { "type": "number" },
+        "fillSaturation": { "type": "number" },
+        "fillLightness": { "type": "number" },
+        "outlineColor": { "type": "number" },
+        "outlineWidth": { "type": "number" },
+        "wallType": { "type": "string" },
+        "lean": { "type": "boolean" },
+        "splats": { "type": "boolean" },
+        "drips": { "type": "boolean" },
+        "highlights": { "type": "boolean" },
+        "createdAt": { "type": "timestamp" },
+        "updatedAt": { "type": "timestamp" }
+      },
+      "required": ["userId", "text", "fontStyle", "createdAt"]
+    }
+  }
+}

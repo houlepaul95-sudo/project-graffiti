@@ -1,0 +1,6 @@
+{
+  "name": "Project Graffiti",
+  "description": "Design vibrant graffiti logos and street art tags with custom fonts, bubble outlines, spray splatters, drips, and 3D shadows. Export and share to gallery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
